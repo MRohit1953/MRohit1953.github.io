@@ -1,0 +1,31 @@
+
+        * {
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+body{
+    margin: auto;
+    width: 640px;
+    padding: 50px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #000000;
+    
+}
+body {
+  background-image: url("webc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-right: px;
+  background-attachment: fixed;
+
+}
+.link { color: #FF0000; } /* CSS link color (red) */
+.link:hover { color: #00FF00; } /* CSS link hover (green) */
+
+#linkR {
+    text-decoration: none;
+}
+
