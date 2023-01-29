@@ -27,6 +27,7 @@ body {
 #linkR {
     text-decoration: none;
     
+    
 }
 #image{
     
@@ -34,6 +35,10 @@ body {
 }
 #social{
     width: 35px;
+    background-color: #ffffff38;
+    border-radius: 0.6em ;
+    padding: 0.45em;
+    margin: 0.4em;
 }
 
 #label{
