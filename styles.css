@@ -7,10 +7,11 @@ body {
 }
 body{
     margin: auto;
-    width: 640px;
+    width: auto;
     padding: 50px;
     font-family: 'Lexend Deca', sans-serif;
     color: #000000;
+    
     
 }
 body {
