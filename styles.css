@@ -28,8 +28,12 @@ body {
 
 #linkR {
     text-decoration: none;
+    
 }
 #image{
     
     width: 15em;
+}
+#social{
+    width: 2rem;
 }
