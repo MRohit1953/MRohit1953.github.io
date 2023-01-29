@@ -35,7 +35,8 @@ body {
 }
 #social{
     width: 35px;
-    background-color: #ffffffbe;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(#ff7300,#ffffff, #006400);
     border-radius: 0.6em ;
     padding: 0.45em;
     margin: 0.4em;
@@ -45,9 +46,16 @@ body {
     display: block;
 }
 #div{
-    background-color: #03030317;
+    background-color: rgba(236, 236, 236, 0.253); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,#5a5a5a59, #ffffffd5,#5a5a5a59);
+    
+    
+    
     border-radius: 2em;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
     margin-top: 1em;
