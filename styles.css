@@ -13,12 +13,7 @@ body{
     
 }
 body {
-  background-image: url("webc.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin-right: px;
-  background-attachment: fixed;
+  
 
 }
 .link { color: #FF0000; } /* CSS link color (red) */
@@ -32,32 +27,62 @@ body {
 #image{
     
     width: 10em;
+    margin-bottom: 1%;
+    margin-top: 1.5%;
 }
 #social{
     width: 35px;
-    background-color: red; /* For browsers that do not support gradients */
-    background-image: linear-gradient(#ff7300,#ffffff, #006400);
-    border-radius: 0.6em ;
-    padding: 0.45em;
-    margin: 0.4em;
+    background-color: #8cff2f; 
+    
+    border-radius: 13px ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    filter:invert(100%) drop-shadow(20px 20px 30px #8c00ff);
+    display: inline-block;
+    position: relative;
+}
+#social:hover{
+     
+    
+    transform: scale(140%);
+    transition-duration: 300ms;
+
+
+
 }
 
 #label{
     display: block;
 }
 #div{
-    background-color: rgba(59, 57, 57, 0.253); /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right,#5a5a5a59, #ffffffd5,#5a5a5a59);
+   margin-top: 5%;
+   margin-bottom: 5%;
+   margin-right: 3%;
+   margin-left: 3%;
+   padding-right: 3%;
+   padding-left: 3%;
+   padding-top: 12%;
+   padding-bottom:12% ;
     
     
+    color: white;
     
-    border-radius: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
-    padding-top: 1em;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    border-radius: ;
+    padding-left: ;
+    padding-right: ;
+    padding-bottom: ;
+    padding-top: ;
+    margin-left: ;
+    margin-right: ;
+    margin-top: ;
+    margin-bottom: ;
+}
+*{
+    background-color: #121212;
+}
+h3{
+    color:#8c00ff;
 }
